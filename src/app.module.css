@@ -1,0 +1,43 @@
+.app {
+  text-align: center;
+}
+
+.info {
+	margin: 0px;
+	color: darkorange;
+
+}
+
+:global .active {
+	text-decoration: none;
+	color: brown;
+}
+
+input[type='checkbox']:checked + .content {
+	display: block;
+}
+
+/*
+.loader {
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 50px;
+height: 50px;
+border: 10px solid darkorange;
+border-radius: 50%;
+border-left-color: transparent;
+animation: loader 1s infinite;
+}
+
+@keyframes loader {
+0% {
+transform: rotate(0deg);
+}
+100% {
+transform: rotate(360deg);
+}
+} */
+
+
